@@ -37,9 +37,10 @@ public class A1113365_0324_1 {
     public static void main(String[] args) {
         Animal[] animals = new Animal[3];
 
-        animals[0] = new Animal("哆啦A夢", 120, 200, 80);
-        animals[1] = new Animal("哆啦B夢", 550, 1200, 60);
-        animals[2] = new Animal("哆啦C夢", 75, 50, 120);
+        animals[0] = new Animal("雪寶", 1.1, 52, 100);
+        animals[1] = new Animal("驢子", 99, 1.5, 200);
+        animals[2] = new Animal("安那", 1.7, 48, 120);
+        animals[3] = new Animal("愛沙", 1.7, 50, 120);
 
         for (Animal animal : animals) {
             animal.show();
